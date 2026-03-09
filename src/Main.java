@@ -1,6 +1,8 @@
 import java.util.*;
 import java.util.stream.*;
 
+//Classwork
+
 class Student {
     String name;
     String group;
@@ -118,6 +120,5 @@ public class Main {
                 .filter(s -> s.getGpa() > 3.5)
                 .count();
         System.out.println("Students with GPA > 3.5: " + countHighGpa);
-
     }
 }
